@@ -1,117 +1,35 @@
 * {
     box-sizing: border-box;
   }
-  
-  html,
-  body,
-  ul,
-  ol,
-  li,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  div {
+   html,body,ul,ol,li,h1,h2,h3,h4,h5,h6,p,div {
     margin: 0;
     padding: 0;
   }
-  
-  body {
+   body {
     font-family: "Lucida Grande";
   }
-  
-  a {
+   a {
     text-decoration: none;
   }
-  
-  .clear {
-    clear: left;
-  }
-  
-  .container {
+   .container {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
   }
-  
-  .top-wrapper {
-    padding: 180px 0 100px 0;
-    background-image: url(header.jpg);
-    background-size: cover;
-    color: white;
-    text-align: center;
-  }
-  
-  .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 10px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 3px;
-  }
-  
-  .btn-wrapper {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .btn-wrapper p {
-    margin: 10px 0;
-  }
-  
-  .signup {
-    background-color: #239b76;
-  }
-  
-  .facebook {
-    background-color: #3b5998;
-    margin-right: 10px;
-  }
-  
-  .twitter {
-    background-color: #55acee;
-  }
-  
-  .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;
-    text-align: center;
-  }
-  
-  .btn:hover {
-    opacity: 1;
-  }
-  
-  .fa {
+   .fa {
     margin-right: 5px;
   }
-  
-  header {
+   header {
     height: 65px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 1);
     position: fixed;
     top: 0;
     z-index: 10;
   }
-  
-  .logo {
-    width: 124px;
-    margin-top: 20px;
-  }
-  
-  .header-left {
+    .header-left {
     float: left;
+    color: white;
   }
   
   .header-right {
@@ -127,166 +45,57 @@
     float: left;
     transition: all 0.5s;
   }
-  
   .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
   
-  /* Modal  */
-  /* Modal is not visible by default. Modal become visible by changing the display property */
-  .signup-modal-wrapper {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    z-index: 100;
-    display: none;
+ table {
+   margin-top: 20px;
+   margin-bottom: 20px;
+ }
+ 
+  fieldset {
+    width: 580px;
+    height: 640px;
+    border-radius: 30px;
+    /*background-image: url(bcg2.jpg);*/
+    background-color: rgba(18, 126, 76, 0.685);
   }
-  
-  .modal {
-    position: absolute;
-    top: 20%;
-    left: 34%;
-    background-color: #e6ecf0;
-    padding: 20px 0 40px;
-    border-radius: 10px;
-    width: 450px;
-    height: auto;
-    text-align: center;
+  td {
+    text-decoration: none;
+    font-size: 20px;
+    text-decoration-style: solid ;
   }
-  
-  .fa-times {
-    position: absolute;
-  
-    top: 12px;
-    right: 12px;
-    color: rgba(128, 128, 128, 0.46);
-    cursor: pointer;
-  }
-  
-  .fa-times:hover {
-    color: #8491a5;
-    background-color: #ccd9ea;
-    transition: 0.3s ease-in-out;
-  }
-  
-  #signup-form {
-    width: 100%;
-  }
-  
-  #signup-form h2 {
-    color: #5f5d60;
-    letter-spacing: 1px;
-    margin-bottom: 40px;
-  }
-  
-  #signup-form input {
-    width: 320px;
-    margin-bottom: 20px;
-    font-size: 12px;
-    padding: 12px 12px;
-    border: 1px solid #d0d5d8;
+  input {
+    width: 180px;
+    height: 25px;
     border-radius: 5px;
+    outline: black;
+    text-indent: 5px;
+
   }
-  
-  #submit-btn {
-    display: inline-block;
-    padding: 14px 140px;
-    background-color: #5dca88;
-    border: none;
-    border-radius: 3px;
-    color: white;
-    margin: 10px auto;
-    cursor: pointer;
+  fieldset {
+    margin-top: 46px;
   }
-  
-  .lesson-wrapper {
-    padding-bottom: 80px;
-    padding-left: 5%;
-    padding-right: 5%;
-    background-color: #f7f7f7;
-    text-align: center;
+  input[type="submit"]:hover {
+    background-color:rgb(10, 215, 230);
   }
-  
-  .heading {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    color: #5f5d60;
+  input[type="reset"]:hover {
+    background-color:rgb(10, 215, 230);
   }
-  
-  .heading h2 {
-    font-weight: normal;
+  textarea {
+    width: 180px;
+    border-radius: 10px;
+    outline: none;
+    text-indent: 5px;
   }
-  
-  .lesson {
-    float: left;
-    width: 100%;
+  table{
+    line-height: 50px;
   }
-  
-  .lesson-icon {
-    position: relative;
+  form {
+    background-image: url(bcg2.jpg);
+    
   }
-  
-  .lesson-icon p {
-    position: absolute;
-    top: 44%;
-    width: 100%;
-    color: white;
-  }
-  
-  .text-contents {
-    width: 80%;
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 15px;
-    color: #b3aeb5;
-  }
-  
-  .heading h3 {
-    font-weight: normal;
-  }
-  
-  .message-wrapper {
-    border-bottom: 1px solid #eee;
-    padding-bottom: 80px;
-    text-align: center;
-  }
-  
-  .message {
-    padding: 15px 40px;
-    background-color: #5dca88;
-    cursor: pointer;
-    box-shadow: 0 7px #1a7940;
-  }
-  
-  .message:active {
-    position: relative;
-    top: 7px;
-    box-shadow: none;
-  }
-  
-  footer img {
-    width: 125px;
-  }
-  
-  footer p {
-    color: #ffffff;
-    font-size: 22px;
-    position: center;
-  }
-  
-  footer {
-    background-color: orangered;
-    width: 100%;
-  }
-  
-  .menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
-  }
-  
+
+
+ 
